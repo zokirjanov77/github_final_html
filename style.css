@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+height: 130px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+flex-direction: column;
+background-color: #16143c;
+padding-bottom: 20px;                       
+padding-top: 20px;
+
+}
+.navbar ul{
+display: flex;
+list-style: none;
+gap: 30px;
+font-size: larger;
+}
+a{
+text-decoration: none;
+color: red;
+display: block;
+}
+.navbar ul li a:hover{
+transform: translateY(-5px);
+
+}
+
+
+
+
+
+
